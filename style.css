@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+}
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    min-height: 100vh;
+}
+.navigation-panel {
+    background-color: rgb(230, 14, 212);
+    
+}
+.navigation-panel h2 {
+    margin-left: 1rem;
+}
+.navigation-panel ul {
+    list-style: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+}
