@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(214, 148, 48);
 }
 .container {
     display: grid;
@@ -12,15 +12,32 @@ body {
     min-height: 100vh;
 }
 .navigation-panel {
-    background-color: rgb(230, 14, 212);
+    background-color: rgb(240, 218, 93);
     
 }
-.navigation-panel h2 {
-    margin-left: 1rem;
-}
+
 .navigation-panel ul {
+    display: grid;
+    gap: 15px;
     list-style: none;
     margin-top: 3rem;
     margin-bottom: 3rem;
     padding-left: 1rem;
+
+    
+}
+.navigation-panel li {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 10px;
+}
+.navigation-panel img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.dashboard {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
 }
